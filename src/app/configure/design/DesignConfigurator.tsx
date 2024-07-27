@@ -57,6 +57,7 @@ const DesignConfigurator = ({
       })
     },
     onSuccess: () => {
+      console.log('first', configId)
       router.push(`/configure/preview?id=${configId}`)
     },
   })
